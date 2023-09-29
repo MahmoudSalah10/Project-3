@@ -50,11 +50,7 @@ h1 {
 .btn-w:hover{
     opacity: 0.5;
 }
-  @media(max-width: 576px){
-    .div-video{
-      width: 100%;
-  }
-  }
+
 /* Section 6 Style:////////////////////////////////////////////////////////////////////// */
 
 .header-3{
@@ -67,7 +63,7 @@ h1 {
     margin: auto;
     margin-top: 8px;
     transition: 0.7s;
-  }
+}
 .h-line:hover{
     transform: scale(1.8,1);
 }
@@ -115,11 +111,6 @@ h1 {
     background-attachment: fixed;
     background-position: center;
 }
-@media(max-width: 576px){
-    .quarter-img{
-      width: 100%;
-  }
-  }
 /*Section 8 style:///////////////////////////////////////////////////////////////////////// */
 .parent-2{
     display: flex;
