@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nike.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/jpg" href="images/nike.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+  
+</head>
+
+<body> 
+  <!-- Header Section: -->
+<header class="header">
+  <nav class="navbar navbar-expand-lg fixed-top  navbar-light bg-white ">
+    <div class="container">
+      <img src="images/nike.jpg" alt="#" style="width:50px;height:50px;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Women</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">kids</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accessories</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sale
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Clothing</a></li>
+              <li><a class="dropdown-item" href="#">Shoes</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">New & featured</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="form-input d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-right:10px;">
+  Sign in
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="myform bg-dark">
+            <h1 class="text-center">Login Form</h1>
+            <form>
+                <div class="mb-3 mt-4">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-light mt-3">LOGIN</button>
+                <p>Not a member? <a href="#">Signup now</a></p>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </nav>
+</header>
+  <!--Main Section 2: /////////////////////////////////////////////////////////////////////////////// -->
+  <main>
+  <div id="demo" class="1 slide" data-bs-ride="carousel">
+
+    
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/b759c6d4-9cea-4980-a66b-cb0763c67632.webp" alt="#" class="d-block w-100" style="margin: auto;height:100vh;">
+        <div class="carousel-caption">
+          <h3>Where Performance Meets Style</h3>
+          <p>Engineered To The Exact Specifications Of Championship Athletes.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/nike-background-lgidzfdmt7ck38qc.jpg" alt="#" class="img-slide d-block w-100" style="margin: auto;height:100vh;">
+        <div class="carousel-caption">
+          <h3>Nike's Famous Slogan</h3>
+          <p>Just Do It. Today, Tomorrow, Forever.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/16402899_10154574935893445_8545108529744465981_o.jpg" alt="#" class="img-slide d-block w-100" style="margin: auto;height:100vh;">
+        <div class="carousel-caption">
+          <h3>Your Potential Unleashed</h3>
+          <p>Just Believe.</p>
+        </div>
+      </div>
+    </div>
+  
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</main>
+<!-- Section 3://////////////////////////////////////////////////////////////////////////////////////// -->
+<section>
+<div class="p-5 bg-dark text-white div-3">
+  <h1>Welcome To The Nike Family!</h1>
+  <p>We're so excited to have you join us on our mission to inspire athletes everywhere to be their best.
+     At Nike, we believe that everyone has the potential to achieve great things,
+      and we're here to help you reach your full potential.</p>
+      <button type="button" class="btn btn-w" style="background-color: #343a40;color:#fff">Learn More</button>
+</div>
+</section>
+<!-- Section 4:////////////////////////////////////////////////////////////////////////////////////////////////// -->
+ <hr>
+ <section>
+<div class="p-5 bg-dark text-white div-3">
+  <h2 style="text-align:center;">What About Us!</h2>
+</div>
+<!-- /////////////////////////////////////////////////////// -->
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        ABOUT PROFILE
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Nike, Inc. is an American multinational corporation that designs, develops, manufactures, 
+        and markets athletic footwear, apparel, equipment, accessories, and services worldwide. 
+        It is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, 
+        with revenue in excess of US$46 billion in its fiscal year 2022.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        OUR PURPOSE
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Our purpose is to move the world forward through the power of sport. Worldwide,
+        we're leveling the playing field, doing our part to protect our collective playground,
+       and expanding access to sport for everyone.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        OUR MISSION
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Athletes do not settle for average. And neither do we. We have a clear mission: 
+        To be the best sports brand in the world. Every day, we come to work to create and sell the best sports products in the world,
+        and to offer the best service and consumer experience.</div>
+    </div>
+  </div>
+</div>
+</section> 
+<!--Section 5: //////////////////////////////////////////////////////////////////////////////////////////////// -->
+<section>
+<div class="p-5 bg-dark text-white div-3" style="text-align: center;">
+  <span style="font-size:18px;font-style:oblique;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Impact</span>
+  <br>
+  <span style="font-size:3rem;font-weight:800;font-family:FuturaNike,var(--displayFont, FuturaNike),sans-serif;line-height: 0.85;">
+    MOVING
+  <br>
+  FORWARD
+</span>
+</div>
+<figure>
+  <video autoplay loop muted width="100%" controls="hidden" id="video">
+    <source src="videos/NIKE_IMPACT_loop_032323.mp4" type="video/mp4">
+  </video>
+</figure>
+</section>
+<!--Section 6: ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<section>
+  
+  <h3 class="header-3">Shop The Essentials</h3>
+  <div class="h-line"></div>
+  <div class="row parent-1">
+    <div class="col-1">
+    <span style="font-weight: 500;">Shoes</span>
+    </div>
+    
+    <div class="col-2">
+    <span style="font-weight: 500;">Clothing</span>
+    </div>
+    
+    <div class="col-3">
+    <span style="font-weight: 500;">Accessories</span>
+    </div>
+  </div>
+  </section>
+  <!-- Section 7: ///////////////////////////////////////////////////////////////////////////////////// -->
+  <section>
+  <hr>
+  <div class="quarter-img"></div>
+  </section>
+  <!-- Section 8:///////////////////////////////////////////////////////////////////////////////////////////////-->
+  <section>
+    <h3 style="margin-top:30px;text-align:center;">Explore More</h3>
+    <div class="J-line"></div>
+    <div class="row parent-2">
+      <div class="col-sm-6 two-img-1">
+        <p style = "color:white;margin-top:300px;font-weight:500;">Unlimited Pant</p>
+        <h3 style = "color:white;margin-top:-10px">Made For Your
+          <br>
+          Every Move
+        </h3>
+        <button type="button" class="btn btn-light" style="width:80px;margin-top: 10px;">View</button>
+      </div>
+      <div class="col-sm-6 two-img-2">
+        <p style = "color:white;margin-top:320px;font-weight:500;">Nike ACG</p>
+        <h3 style = "color:white;margin-top:-10px">Hiking Essentials</h3>
+        <button type="button" class="btn btn-light" style="width:80px;margin-top: 20px;">View</button>
+      </div>
+    </div>
+  </section>
+  <!-- Section 9://////////////////////////////////////////////////////////////////////////////////////////// -->
+  <section>
+    <h3 class="header-4">Men Most Popular</h3>
+    <div class="M-line"></div>
+   <!-- ////////////////////////////////////////////////// -->
+    <div class="parent-3">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 ca-1">
+            <img src="images/greenshoe.webp" class="card-img-top" alt="#">
+            <div class="card-body">
+              <h5 class="card-title">Nike Free Mecton 5 -120$</h5>
+              <p class="card-text">Men's Workout Shoes</p>
+              <a href="#" class="btn btn-dark">Shop</a>
+            
+            </div>
+          </div>
+        </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 ca-1">
+          <img src="images/greenclothes.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <h5 class="card-title">Nike Sportswear Club -50$</h5>
+            <p class="card-text">Men's Graphic Shorts</p>
+            <a href="#" class="btn btn-dark">Shop</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 ca-1">
+          <img src="images/greencap.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <h5 class="card-title">Florida A&M Heritage86 -30$</h5>
+            <p class="card-text">Nike College Trucker Hat</p>
+            <a href="#" class="btn btn-dark">Shop</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>  
+  </section>
+<!-- Section 10:///////////////////////////////////////////////////////////////////////// -->
+<section>
+  <h3 class="header-4">Women Most Popular</h3>
+  <div class="M-line"></div>
+ <!-- ////////////////////////////////////////////////// -->
+  <div class="parent-3">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 ca-1">
+          <img src="images/pinkshoe.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <h5 class="card-title">Nike Air Zoom Arcadia 2 -75$</h5>
+            <p class="card-text">Little Kids' Shoes</p>
+            <a href="#" class="btn btn-dark">Shop</a>
+          </div>
+        </div>
+      </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 ca-1">
+        <img src="images/pinkclothes.webp" class="card-img-top" alt="#">
+        <div class="card-body">
+          <h5 class="card-title">Nike Sportswear Phoenix Fleece -70$</h5>
+          <p class="card-text">Women's Oversized Crewneck Sweatshirt</p>
+          <a href="#" class="btn btn-dark">Shop</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 ca-1">
+        <img src="images/pinkcap.jpeg" class="card-img-top" alt="#">
+        <div class="card-body">
+          <h5 class="card-title">Nike Club Cap -30$</h5>
+          <p class="card-text">Unstructured Corduroy Cap</p>
+          <a href="#" class="btn btn-dark">Shop</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>  
+</section>
+<!-- Section 11://////////////////////////////////////////////////////////////////////////////////// -->
+<section>
+  <h3 class="header-4">Kids Most Popular</h3>
+  <div class="M-line"></div>
+ <!-- ////////////////////////////////////////////////// -->
+  <div class="parent-3">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 ca-1">
+          <img src="images/blackshoe.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <h5 class="card-title">Nike Revolution 6 -50$</h5>
+            <p class="card-text">Baby/Toddler Shoes</p>
+            <a href="#" class="btn btn-dark">View</a>
+          </div>
+        </div>
+      </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 ca-1">
+        <img src="images/kid.webp" class="card-img-top" alt="#">
+        <div class="card-body">
+          <h5 class="card-title">Nike Sportswear Tech Fleece -70$</h5>
+          <p class="card-text">Big Kids' (Boys') Full-Zip Hoodie</p>
+          <a href="#" class="btn btn-dark">View</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 ca-1">
+        <img src="images/blackcap.webp" class="card-img-top" alt="#">
+        <div class="card-body">
+          <h5 class="card-title">Nike Rise -30$</h5>
+          <p class="card-text">Structured SwooshFlex Futura Cap</p>
+          <a href="#" class="btn btn-dark">View</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>  
+</section>
+<!-- Section 12: ///////////////////////////////////////////////////////////////////////////////////////// -->
+<section>
+<h3 class="header-4">Founders Of Nike</h3>
+  <div class="M-line"></div>
+<div class="profilearea">
+  <div class="container">
+    <div class="row row-2">
+      <div class="col-md-4">
+        <div class="card co-card">
+          <div class="overlay"></div>
+           <div class="img1"><img src="images/john.jpg" alt="#" class="co-img"></div>
+           <div class="img2"><img src="images/john.jpg" alt="#" class="co-2-img"></div>
+           <div class="main-text">
+            <h2>John Donahoe</h2>
+            <p>President & CEO</p>
+           </div>
+
+           <div class="socials">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+           </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card co-card">
+          
+          <div class="img1"><img src="images/Philip-Knight.jpg" alt="#" class="co-img"></div>
+          <div class="img2"><img src="images/Philip-Knight.jpg" alt="#" class="co-2-img"></div>
+           <div class="main-text">
+            <h2>Philip Knight</h2>
+            <p>Co-Founder & Chairman</p>
+
+           </div>
+           <div class="socials">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+           </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card co-card">
+          <div class="img1"><img src="images/2009_Bill_Bowerman_Cropped_Alone.jpg" alt="#" class="co-img"></div>
+           <div class="img2"><img src="images/2009_Bill_Bowerman_Cropped_Alone.jpg" alt="#" class="co-2-img"></div>
+           <div class="main-text">
+            <h2>Bill Bowerman </h2>
+            <p>Co-Founder</p>
+
+           </div>
+           <div class="socials">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--Section 13: //////////////////////////////////////////////////////////////////////////////////////////////// -->
+<section>
+  <h3 class="header-4">Nike Teams</h3>
+  <div class="M-line n-2"></div>
+  <div class="container my-5 teams-section">
+    <div class="card row flex-row-reverse">
+        <img class="col-lg-4 card-img-end img-fluid p-0" src="images/position.jpg" style="border-top-left-radius: 50px;border-bottom-left-radius:50px"/>
+        <div class="col-lg-8 card-body">
+            <h1 class="card-title">RETAIL STORES</h1>
+            <i class="fa-solid fa-store fa-bounce" style = "color: #343a40;"></i>
+            <span class="span-1">Where Legends Are Made, One Step At A Time</span>
+            <div class="span-line"></div>
+            <p class="card-text" style="margin-top: 50px;">Nike Direct is the face of Nike. 
+              A career in Nike Direct demands creativity and ambition,
+               while offering the opportunity to grow with world-class teammates and retail partners.
+                Our team unites physical and digital retail, 
+                giving consumers complete access to premium products and immersive experiences every day.
+                Nike stores are typically well-lit and organized, 
+                with products displayed in a way that makes it easy for customers to find what they're looking for.
+                 Nike stores also have knowledgeable staff members who can help customers find the right products for their needs.</p>
+                <div class="button-group">
+                <a href="#" class="btn btn-dark btn-1">View Team</a>
+            <a href="#" class="btn btn-dark btn-1">About us</a>
+            <a href="#" class="btn btn-dark btn-1">Learn More</a>
+          </div>
+        </div>
+    </div>
+</div>
+<!-- ////////////////////////////////// -->
+  <div class="container my-5">
+    <div class="card row flex-row">
+        <img class="col-lg-4 card-img-start img-fluid p-0" src="images/visionairies-team-6-fg.original.jpg" style="border-top-right-radius: 50px;border-bottom-right-radius:50px"/>
+        <div class="col-lg-8 card-body">
+            <h1 class="card-title">SPORTS MARKETING</h1>
+            <i class="fa-solid fa-rectangle-ad fa-beat-fade" style = "color: #343a40;"></i>
+            <span class="span-1">The Art And Science Of Persuasion</span>
+            <div class="span-line"></div>
+            <p class="card-text" style="margin-top: 50px;">Nike Sports Marketing professionals provide the vital linkage between the company and Nike-sponsored athletes, clubs and federations worldwide. 
+              Sports Marketing employees partner with premier athletes to collect insights about existing and future products, 
+              gather inspirational stories about sport and nurture long-term relationships between the athletes and the company. 
+              The team develops and executes sports marketing strategies, obtains endorsements and licensing agreements and serves as Nike ambassadors to the sports community worldwide. 
+              Their relationships build the foundation of Nike's product creation: Nike creates exceptional products because its employees listen to exceptional athletes.</p>
+              <div class="button-group">
+                <a href="#" class="btn btn-dark btn-1">View Team</a>
+                <a href="#" class="btn btn-dark btn-1">About us</a>
+                <a href="#" class="btn btn-dark btn-1">Learn More</a>
+              </div>
+             </div>
+    </div>
+</div>
+<!-- ///////////////////////////////////////////// -->
+<div class="container my-5">
+  <div class="card row flex-row-reverse">
+      <img class="col-lg-4 card-img-end img-fluid p-0" src="images/sales.jpg" style="border-top-left-radius: 50px;border-bottom-left-radius:50px" />
+      <div class="col-lg-8 card-body">
+          <h1 class="card-title">SALES</h1>
+          <i class="fa-solid fa-money-check-dollar fa-flip" style = "color: #343a40;"></i>
+          <span class="span-1">Just Do It. And Save Money While Doing It</span>
+          <div class="span-line"></div>
+          <p class="card-text" style="margin-top: 50px;">NIKE, Inc., knows how to sell sneakers. And apparel. 
+            And just about everything an athlete could need. 
+            Nike Sales teams are the front line for getting these products into the customer's hands. 
+            Through sustained relationships with wholesale partners around the world — 
+            from a specialty store in Rome to a department store in Manhattan — Nike Sales delivers defining products, 
+            experiences and brand stories.
+            Nike has sales throughout the year, but some of the best sales are around the holidays, such as Black Friday and Cyber Monday. Nike also has sales at the end of each season to clear out inventory.
+            During sales, you can find discounts on a wide variety of Nike products, including shoes, apparel, equipment, and accessories. You can often find discounts of up to 50% or more on select items.</p>
+              <div class="button-group">
+                <a href="#" class="btn btn-dark btn-1">View Team</a>
+                <a href="#" class="btn btn-dark btn-1">About us</a>
+                <a href="#" class="btn btn-dark btn-1">Learn More</a>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- //////////////////////////////////////////////////////// -->
+<div class="container my-5">
+  <div class="card row flex-row">
+      <img class="col-lg-4 card-img-start img-fluid p-0" src="images/Data_and_Analytics_Image.original.jpg" style="border-top-right-radius: 50px;border-bottom-right-radius:50px"/>
+      <div class="col-lg-8 card-body">
+          <h1 class="card-title">INSIGHTS & ANALYTICS</h1>
+          <i class="fa-solid fa-chart-simple fa-beat" style = "color: #343a40;"></i>
+          <span class="span-1">Where Data Meets Performance</span>
+          <div class="span-line"></div>
+          <p class="card-text" style="margin-top: 50px;">We're a team of strategists and scientists. 
+            Inquisitors and interpreters. Designers and innovators. 
+            We're big thinkers and detail enthusiasts. Data wranglers and insight creators. 
+            NIKE Inc.'s Insights & Analytics teams get after big data and turn it into digestible decision-making tools for the company. 
+            We use personalization science by leveraging AI and machine learning to build solutions to ingest,
+             integrate and transform data into useful formats to do more of what we do best. 
+             Together, we pair the science of data and analytics with the art of functional expertise to support NIKE, Inc. 
+             in achieving our company's enterprise goals.</p>
+            <div class="button-group">
+              <a href="#" class="btn btn-dark btn-1">View Team</a>
+            <a href="#" class="btn btn-dark btn-1">About us</a>
+            <a href="#" class="btn btn-dark btn-1">Learn More</a>
+            </div>
+      </div>
+  </div>
+</div>
+</section>
+<!-- Section 14:///////////////////////////////////////////////////////////////////////////////////// -->
+<section>
+  <div class="beforelast">
+  <h3 class="header-4">Join Our Community</h3>
+  <div class="M-line"></div>
+</div>
+  <div class="row social-media">
+    <div class="col-md-2">
+      <div class="card social-card">
+        <div class="card-body" style="text-align: center;">
+          <h5 class="card-title">Follow us</h5>
+          <img src="images/twitter2.jpg" alt="#" style="width:7rem;height:100px;border-radius:35px;cursor:pointer;">
+          <h5 class="card-title" style="margin-top: 10px;">Go To Link</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="card">
+        <div class="card-body" style="text-align: center;">
+          <h5 class="card-title">Communicate</h5>
+          <img src="images/whatsapp.jpg" alt="#" style="width:7rem;height:100px;border-radius:35px;cursor:pointer;">
+          <h5 class="card-title" style="margin-top: 10px;">Go To Link</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="card">
+        <div class="card-body" style="text-align: center;">
+          <h5 class="card-title">Follow Us</h5>
+          <img src="images/linked in.jpg" alt="#" style="width:7rem;height:100px;border-radius:35px;cursor:pointer;">
+          <h5 class="card-title" style="margin-top: 10px;">Go To Link</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="card">
+        <div class="card-body" style="text-align: center;">
+          <h5 class="card-title">Watch Our Videos</h5>
+          <img src="images/instagram2.jpg" alt="#" style="width:7rem;height:100px;border-radius:35px;cursor:pointer;" >
+          <h5 class="card-title" style="margin-top: 10px;">Go To Link</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer Section:////////////////////////////////////////////////////////////////////////// -->
+<footer class="footer">
+<div class="container footer-container">
+  <div class="row footer-row">
+    <div class="footer-col footer-col-1">
+      <h4>Company</h4>
+      <ul class="footer-ul">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Our Services</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Affiliate program</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>get help</h4>
+      <ul class="footer-ul">
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Shipping</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">Order Status</a></li>
+        <li><a href="#">Payment Options</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Online shop</h4>
+      <ul class="footer-ul">
+        <li><a href="#">Clothes</a></li>
+        <li><a href="#">Bags</a></li>
+        <li><a href="#">Shoes</a></li>
+        <li><a href="#">Accessories</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Follow us</h4>
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footerbottom">
+  <p>Copyright &copy;2023 Nike, Inc. All Rights Reserved</p>
+</div>
+</footer>
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

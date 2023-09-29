@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 10000px;
+    position: relative;
+    padding-top: 55px;
+}
+.form-input{
+    margin-right: -70px;
+}
+.modal-content {
+    width: 80%;
+    margin: 0 auto;
+}
+.modal-body {
+    padding: 0;
+}
+.modal-backdrop {
+    z-index: 1;
+  }
+
+.modal {
+    z-index: 2;
+  }
+.btn-close {
+    position: absolute;
+    right: 0;
+    padding: 1em;
+}
+h1 {
+    font-size: 2.3em;
+    font-weight: bold;
+}
+.myform {
+    padding: 2em;
+    max-width: 100%;
+    color: #fff;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+}
+/* Main Section Style:///////////////////////////////////////////////////////////////////// */
+.img-slide{
+    width: 1253px;
+}
+
+/* ////////////////////////////////////////////////////////////////////// */
+
+.btn-w:hover{
+    opacity: 0.5;
+}
+/* Section 6 Style:////////////////////////////////////////////////////////////////////// */
+
+.header-3{
+    text-align: center;
+}
+.h-line{
+    width: 100px;
+    height: 4px;
+    background-color: #343a40 ;
+    margin: auto;
+    margin-top: 8px;
+    transition: 0.7s;
+  }
+.h-line:hover{
+    transform: scale(1.8,1);
+}
+.parent-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.col-1{
+    width: 350px;
+    height: 400px;
+    background-image: url(../images/shoes.webp);
+    background-size: cover;
+    transition: 0.7s;
+}
+.col-1:hover{
+    transform: scale(1.1,1.1);
+}
+.col-2{
+    width: 350px;
+    height: 400px;
+    background-image: url(../images/man.jpeg);
+    background-size: cover;
+    transition: 0.7s;
+}
+.col-2:hover{
+    transform: scale(1.1,1.1);
+}
+.col-3{
+    width: 350px;
+    height: 400px;
+    background-image: url(../images/cap.webp);
+    background-size: cover;
+    transition: 0.7s;
+}
+.col-3:hover{
+    transform: scale(1.1,1.1);
+}
+/* Section 7://////////////////////////////////////////////////////////////////////// */
+
+.quarter-img{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/just-do-it-8k-black-7680x4320-11721.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+   
+}
+
+/*Section 8 style:///////////////////////////////////////////////////////////////////////// */
+.parent-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.two-img-1{
+    width: 600px;
+    height: 500px;
+    background-image: url(../images/women.webp);
+    background-size: cover;
+}
+.two-img-2{
+    width: 600px;
+    height: 500px;
+    background-image: url(../images/menhiking.jpg);
+    background-size: cover;
+}
+.J-line{
+    width: 75px;
+    height: 4px;
+    background-color: #343a40 ;
+    margin: auto;
+    margin-top: 8px;
+    transition: 0.7s;
+  }
+.J-line:hover{
+    transform: scale(1.5,1);
+}
+/* Section 10 Style://////////////////////////////////////////////////////////////////////////////// */
+.header-4{
+    text-align: center;
+    margin-top: 50px;
+}
+.M-line{
+    width: 100px;
+    height: 4px;
+    background-color: #343a40 ;
+    margin: auto;
+    margin-top: 8px;
+    transition: 0.7s;
+  }
+.M-line:hover{
+    transform: scale(1.8,1);
+}
+.parent-3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.ca-1:before{
+    position: absolute;
+    content: "";
+     
+    width: 0;
+    height: 0;
+
+    bottom: 0;
+    right: 0;
+    
+
+    background-color: black;
+    opacity: 0;
+}
+.ca-1:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 0.7s;
+   
+}
+.ca-1:after{
+    position: absolute;
+    content: "";
+     
+    width: 0;
+    height: 0;
+
+    top:0 ;
+    left: 0;
+    
+
+    background-color: black;
+    opacity: 0;
+}
+.ca-1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 0.7s;
+    
+}
+/* Section 12 Style:///////////////////////////////////////////////////////////// */
+.profile-area{
+    padding: 80px 0;
+}
+
+.co-card{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+    transition: 0.6s;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+}
+.co-card:hover{
+    transform: scale(1,0.7);
+}
+.img1 img{
+    height: 350px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%; 
+}
+.img2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -80px;
+    z-index: 1;
+}
+.card:hover .img2 img{
+    border-color: #343a40;
+    transition: 0.7s;
+    
+}
+
+.main-text{
+    padding: 30px 0;
+    text-align: center;
+    
+
+    
+}
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
+    
+}
+.main-text p {
+    font-size: 16px;
+    padding: 0 35px;
+    
+}
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.socials i {
+   font-size: 20px;
+   color: #343a40;
+   padding: 0 10px;
+   cursor: pointer;
+ }
+.row-2{
+     margin-top: 100px;
+}
+/* Section 13 Style://////////////////////////////////////////////////////////////// */
+.button-group{
+    margin-top: 100px;
+}
+.btn-1:hover{
+opacity: 0.9;
+}
+.span-line{
+    width: 100px;
+    height: 4px;
+    background-color: #343a40 ;
+    margin-top: 8px;
+    margin-left: 10px;
+    transition: 0.7s;
+    
+    
+}
+.n-2{
+    width:70px;
+    height: 4px;
+    background-color: #343a40 ;
+    margin: auto;
+    margin-top: 8px;
+    transition: 0.7s;
+}
+.n-2:hover{
+    transform: scale(1.4,1);
+} 
+/* (beforelast)Section 14 Style://////////////////////////////////////////////////////////////////////////// */
+.beforelast{
+    margin-top: 100px;
+}
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+/* ////////////////////////////////////////////////////////////////////////////// */
+.footer-container{
+	max-width: 1253px;
+	margin:auto;
+}
+.footer-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 40px 0;
+    margin-top: 180px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: grey;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.footerbottom{
+    color: grey;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+    
+}
+.footerbottom:hover{
+    color: #fff;
+}
+
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+
+/* /////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
