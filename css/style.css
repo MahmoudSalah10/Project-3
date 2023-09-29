@@ -102,7 +102,6 @@ h1 {
     transform: scale(1.1,1.1);
 }
 /* Section 7://////////////////////////////////////////////////////////////////////// */
-
 .quarter-img{
     width: 100%;
     height: 50vh;
@@ -110,9 +109,7 @@ h1 {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-   
 }
-
 /*Section 8 style:///////////////////////////////////////////////////////////////////////// */
 .parent-2{
     display: flex;
