@@ -39,6 +39,7 @@ h1 {
     color: #fff;
     box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
 }
+
 /* Main Section Style:///////////////////////////////////////////////////////////////////// */
 .img-slide{
     width: 1253px;
@@ -319,6 +320,11 @@ opacity: 0.9;
 .n-2:hover{
     transform: scale(1.4,1);
 } 
+  @media(max-width: 576px){
+    .section13-img{
+      width: 100%;
+  }
+  }
 /* (beforelast)Section 14 Style://////////////////////////////////////////////////////////////////////////// */
 .beforelast{
     margin-top: 100px;
@@ -328,7 +334,7 @@ opacity: 0.9;
     justify-content: space-evenly;
     margin-top: 100px;
 }
-/* ////////////////////////////////////////////////////////////////////////////// */
+/* Footer Section Style:////////////////////////////////////////////////////////////////////////////// */
 .footer-container{
 	max-width: 1253px;
 	margin:auto;
